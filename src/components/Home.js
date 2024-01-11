@@ -6,8 +6,9 @@ import './Home.css';
 const Home = ({ dogs }) => {
   return (
     <div>
-      <h2 className="animated infinite bounce">Bienvenue sur notre site de vente de chiens !</h2>
-      <p>Découvrez nos adorables chiens disponibles pour la vente :</p>
+      <div class="textalign">
+      <h2 className="animated infinite bounce">Bienvenue sur notre site de vente de chiens !</h2></div>
+      <div class="ttalign"> <p>Découvrez nos adorables chiens disponibles pour la vente </p> </div>
       <ul className="home-dog-list">
         {dogs.map((dog, index) => (
           <li key={index} className="home-dog-item">

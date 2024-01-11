@@ -3,7 +3,52 @@
     text-align: center;
     padding: 20px;
   }
+
+  .textalign{
+    text-align :center
+  }
+
+  .ttalign{
+    text-align :center
+  }
   
+
+
+  .textalign {
+    animation-duration: 2s;
+    animation-name: slidein;
+    font-style: italic;
+  }  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .ttalign {
+    animation-duration: 3s;
+    animation-name: slidein;
+    font-style: italic;
+  }  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
   .home-dog-list {
     list-style: none;
     padding: 0;
