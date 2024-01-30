@@ -1,0 +1,68 @@
+/* src/components/Navbar.css */
+nav {
+  background-color: #000;
+  padding: 20px;
+  animation: fadeInDown 1s ease-in-out;
+  /* Ajouter une animation fadeInDown */
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1000; /* Assurez-vous que la barre de navigation reste au-dessus du contenu */
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo-taille {
+  width: 30px;
+  height: 30px;
+}
+
+/* Animation fadeInDown */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  align-content: center;
+}
+
+.nav-content span {
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
