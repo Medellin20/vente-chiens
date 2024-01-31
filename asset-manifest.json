@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vente-chiens/static/css/main.d0b108be.css",
+    "main.js": "/vente-chiens/static/js/main.9cd26922.js",
+    "static/js/787.4e94ad7d.chunk.js": "/vente-chiens/static/js/787.4e94ad7d.chunk.js",
+    "index.html": "/vente-chiens/index.html",
+    "main.d0b108be.css.map": "/vente-chiens/static/css/main.d0b108be.css.map",
+    "main.9cd26922.js.map": "/vente-chiens/static/js/main.9cd26922.js.map",
+    "787.4e94ad7d.chunk.js.map": "/vente-chiens/static/js/787.4e94ad7d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0b108be.css",
+    "static/js/main.9cd26922.js"
+  ]
+}
