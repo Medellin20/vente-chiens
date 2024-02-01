@@ -1,0 +1,99 @@
+/* src/components/Home.css */
+/* .home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.textalign {
+  text-align: center
+}
+
+.ttalign {
+  text-align: center
+}
+
+
+
+.textalign {
+  animation-duration: 2s;
+  animation-name: slidein;
+  font-style: italic;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.ttalign {
+  animation-duration: 3s;
+  animation-name: slidein;
+  font-style: italic;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} */
+
+
+/* .home-dog-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .home-dog-item {
+    margin: 10px;
+  }
+  
+  .home-dog-image {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .home-dog-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .home-dog-details {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+   */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-dog-list {
+  width: 1000px;
+  display: grid;
+}
+
+
+.home-dog-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
