@@ -1,11 +1,11 @@
-const mongoose = require('mongoose');
+import { set, connect } from 'mongoose';
 
 // connection base de donnees
-mongoose.set('strictQuery', true);
+set('strictQuery', true);
 
 const connectDB = async () => {
     try {
-        await mongoose.connect(process.env.MONGO_URL, {
+        await connect(process.env.MONGO_URL, {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
@@ -15,4 +15,4 @@ const connectDB = async () => {
     }
 };
 
-module.exports = connectDB;
+export default connectDB;
