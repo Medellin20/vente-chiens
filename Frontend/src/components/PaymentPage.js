@@ -25,7 +25,7 @@ const PaymentPage = () => {
   
     // Ajoutez ici la logique pour traiter le paiement
     axios
-      .post("http://localhost:4000/api/payment/initiate",
+      .post(" https://vente-chien-backend.onrender.com",
         {
           surname: surName,
           lastname: lastName,

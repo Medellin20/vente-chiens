@@ -15,7 +15,7 @@ const Inscription = () => {
 		// Ajoutez ici la logique pour traiter le paiement
 		axios
 			.post(
-				"http://localhost:4000/api/auth/register",
+				" https://vente-chien-backend.onrender.com",
 				{
 					username: username,
 					password: password,
