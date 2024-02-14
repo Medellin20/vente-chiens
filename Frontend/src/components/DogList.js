@@ -25,7 +25,6 @@ const DogList = ({ dogs }) => {
     window.location = `/dogs/${index}`;
   };
 
-  console.log(dogs);
 
   return (
     <div className='dog-container'>
