@@ -15,7 +15,7 @@ const Connexion = () => {
 		// Ajoutez ici la logique pour traiter le paiement
 		axios
 			.post(
-				" https://vente-chien-backend.onrender.com",
+				"https://vente-chien-backend.onrender.com/api/auth/login",
 				{
 					username: username,
 					password: password,
