@@ -7,7 +7,7 @@ const Inscription = () => {
 	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
 
-	const baseUrl = 'http://localhost:4000'
+	const baseUrl = 'https://homedog.onrender.com/'
 
 	const handleInscription = (e) => {
 		// Ajoutez votre logique d'inscription ici
