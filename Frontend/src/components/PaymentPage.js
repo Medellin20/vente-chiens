@@ -13,7 +13,7 @@ const PaymentPage = () => {
   const [deliveryemail, setdeliveryemail] = useState("");
   const [email, setemail] = useState("");
   const [personnalemail, setpersonnalemail] = useState("");
-  const baseUrl = 'https://homedog.onrender.com/'
+  const baseUrl = 'https://homedog.onrender.com'
 
   // const { index } = useParams();
   // const dog = dogs[index];

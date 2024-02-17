@@ -7,7 +7,7 @@ const Connexion = () => {
 	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
 
-	const baseUrl = 'https://homedog.onrender.com/'
+	const baseUrl = 'https://homedog.onrender.com'
 
 	const handleConnexion = (e) => {
 		// Ajoutez votre logique de connexion ici
