@@ -1,7 +1,5 @@
-// src/components/Home.js
 import React from "react";
 import { Link } from "react-router-dom";
-// import './Home.css';
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const Home = ({ dogs }) => {
@@ -35,6 +33,22 @@ const Home = ({ dogs }) => {
 					</Masonry>
 				</ResponsiveMasonry>
 			</div>
+			<footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+        <div>
+            <p>&copy; 2021 Votre entreprise. Tous droits réservés.</p>
+        </div>
+        <div>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:text-gray-400">Accueil</a></li>
+                <li><a href="#" class="hover:text-gray-400">Services</a></li>
+                <li><a href="#" class="hover:text-gray-400">À propos</a></li>
+                <li><a href="#" class="hover:text-gray-400">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
 		</div>
 	);
 };

@@ -7,6 +7,8 @@ const Connexion = () => {
 	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
 
+	const baseUrl = 'http://localhost:4000'
+
 	const handleConnexion = (e) => {
 		// Ajoutez votre logique de connexion ici
 		e.preventDefault();
@@ -15,7 +17,7 @@ const Connexion = () => {
 		// Ajoutez ici la logique pour traiter le paiement
 		axios
 			.post(
-				"https://vente-chien-backend.onrender.com/api/auth/login",
+				baseUrl + "/api/auth/login",
 				{
 					username: username,
 					password: password,

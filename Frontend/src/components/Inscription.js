@@ -7,6 +7,8 @@ const Inscription = () => {
 	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
 
+	const baseUrl = 'http://localhost:4000'
+
 	const handleInscription = (e) => {
 		// Ajoutez votre logique d'inscription ici
 		e.preventDefault();
@@ -15,7 +17,7 @@ const Inscription = () => {
 		// Ajoutez ici la logique pour traiter le paiement
 		axios
 			.post(
-				"https://vente-chien-backend.onrender.com/api/auth/register",
+				baseUrl + "/api/auth/register",
 				{
 					username: username,
 					password: password,

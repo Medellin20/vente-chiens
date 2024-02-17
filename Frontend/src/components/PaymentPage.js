@@ -13,6 +13,7 @@ const PaymentPage = () => {
   const [deliveryemail, setdeliveryemail] = useState("");
   const [email, setemail] = useState("");
   const [personnalemail, setpersonnalemail] = useState("");
+  const baseUrl = 'http://localhost:4000'
 
   // const { index } = useParams();
   // const dog = dogs[index];
@@ -25,7 +26,7 @@ const PaymentPage = () => {
   
     // Ajoutez ici la logique pour traiter le paiement
     axios
-      .post("https://vente-chien-backend.onrender.com/api/payment/initiate",
+      .post(  baseUrl + "/api/payment/initiate",
         {
           surname: surName,
           lastname: lastName,
